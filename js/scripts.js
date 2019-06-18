@@ -214,7 +214,7 @@ $(document).ready(function () {
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Sólo un momento!</strong> Estamos verificando tus detalles.'));
 
-            $.post('https://script.google.com/macros/s/AKfycbxhDMAnR6T06GPFos4IgtSCO14Tnxg3U-RqxZEKV9rXxcuETfFk/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbx4mESoZSSk4VXo-7yUDQYFXjQW5BHz2AMtmISSrA/exec', data)
                 .done(function (data) {
                     console.log(data);
                     $('#alert-wrapper').html('');
@@ -222,7 +222,7 @@ $(document).ready(function () {
                 })
                 .fail(function (data) {
                     console.log(data);
-                    $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> There is some issue with the server. '));
+                    $('#alert-wrapper').html(alert_markup('danger', '<strong>Lo sentimos!</strong> Hubo un problema con el servidor. '));
                 });
 
     });
@@ -265,7 +265,7 @@ function alert_markup(alert_type, msg) {
     return '<div class="alert alert-' + alert_type + '" role="alert">' + msg + '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span>&times;</span></button></div>';
 }
 
-// MD5 Encoding
+/* // MD5 Encoding
 var MD5 = function (string) {
 
     function RotateLeft(lValue, iShiftBits) {
@@ -482,4 +482,4 @@ var MD5 = function (string) {
     var temp = WordToHex(a) + WordToHex(b) + WordToHex(c) + WordToHex(d);
 
     return temp.toLowerCase();
-};
+}; */
