@@ -1,32 +1,26 @@
-# Wedding Website
-A beautiful, feature rich, device friendly wedding website.  
-_See [wedding.rampatra.com](http://wedding.rampatra.com/) for a demo. Use invite code `271117` to RSVP._
+# Página web para bodas
+Esta es una página web desarrollada para la boda de mi prima. Está hecha sólo con Html, Javascript y Sass.
+La página consta de una interfaz sencilla para promocionar la boda y permitirle a los usuarios invitados indicar si podrán asitir.
+El formulario envía la respuesta RSVP de la invitación a la boda y esta es registrada posteriormente en una hoja de cálculo de Google, sin necesidad de servidores o backend.
 
 # Highlights
-1. Slick and fully __responsive__ design.
-2. __RSVP feature__ which directly uploads data to a Google sheet.
-3. __Receive email alerts__ when someone RSVPs.
-4. __Add to Calendar__ feature which supports four different calendars.
-5. __Book Uber__ button lets guests book a cab to the venue with just a single tap.
-6. Start and run the website __completely free__. No hosting, backend server, or database required as you can
-use [GitHub pages](https://pages.github.com/) to host and Google sheets (with the help of Google scripts) to store rsvp data.
+1. Totalmente __responsive__.
+2. __Formulario RSVP__ que directamente envía data a un Google sheet.
+3. __Recibir emails__ cuando alguien realiza un RSVP.
+4. Corre rápidamente el proyecto de manera __gratis__. No hacen falta servidores o bases de datos, se puede configurar 
+ [GitHub pages](https://pages.github.com/) como hosting  y Google sheets (con la ayuda de Google Scripts) para guardar la data.
 
-# Getting Started
-1. `$ cd wedding-website` - go inside the project directory
-2. `$ npm install` - install dependencies _(optional)_
-3. `$ gulp` - compile sass to css, minify js, etc. _(optional)_
-4. That's it, open `index.html` on your browser by just double-clicking on the file.
+# Cómo empezar
+1. `$ cd boda-prima` - entra al directorio
+2. `$ npm install` - instala las dependencias _(opcional)_
+3. `$ gulp` - compila las dependencias sass a css, minifica js, etc. _(opcional)_
+4. Listo! Abre `index.html` para visualizar el contenido.
 
-# Documentation (pending...)
-Will add detailed instructions soon about Uber API and other configurations on this website but for now, you can follow
-this [article](https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server) to setup your Google sheet
-for rsvp feature.
+# Créditos
+La plantilla utilizada como base e inspiración es obra de [Rampatra](https://github.com/rampatra/).
+Regalenle un café si deseas a la siguiente dirección:
+<a href="https://www.buymeacoffee.com/rampatra" target="_blank"><img src="https://stripe-images.s3.amazonaws.com/works-with/547e1ec63ede3d7b9bb9a2410860c90886ced997" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
-# About Me
-Hello, my name is Ram. I am a Software Engineer at [Verizon Media](https://www.verizonmedia.com/). I enjoy making teeny tiny applications in
-my leisure time and this is one of them. Now that my wedding is over, I am open-sourcing it. Hope you like it!
-
-# Contribute
-Firstly, a big thanks 🙏🏻for the overwhelming response on [HackerNews](https://news.ycombinator.com/item?id=18556787) and [Reddit](https://www.reddit.com/r/opensource/comments/a1bx4h/i_am_open_sourcing_my_wedding_website_on_my_first/). I would be more than happy for [PRs](https://help.github.com/articles/about-pull-requests/) or [gifts](https://www.paypal.me/ramswaroop) ;)
-
-<a href="https://www.buymeacoffee.com/rampatra" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+## Licencia
+El proyecto es un fork del template original con algunas modificaciones y contenido traducido al español.
+Su licencia es MIT y es libre de uso para replicarlo o usarlo como base.
