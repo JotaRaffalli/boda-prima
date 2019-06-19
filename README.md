@@ -20,7 +20,7 @@ El formulario envía la respuesta RSVP de la invitación a la boda y esta es reg
 # Créditos
 La plantilla utilizada como base e inspiración es obra de [Rampatra](https://github.com/rampatra/).
 Regalenle un café si deseas a la siguiente dirección:
-<a href="https://www.buymeacoffee.com/rampatra" target="_blank"><img src="https://github.com/JotaRaffalli/boda-prima/blob/master/547e1ec63ede3d7b9bb9a2410860c90886ced997.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+<a href="https://www.buymeacoffee.com/rampatra" target="_blank"><img src="https://github.com/JotaRaffalli/boda-prima/blob/master/547e1ec63ede3d7b9bb9a2410860c90886ced997.png" alt="Buy him A Coffee" style="height: 200 !important;width: 200 !important;" ></a>
 
 ## Licencia
 El proyecto es un fork del template original con algunas modificaciones y contenido traducido al español.
