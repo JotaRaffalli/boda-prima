@@ -2,7 +2,6 @@
 Esta es una página web desarrollada para la boda de mi prima. Está hecha sólo con Html, Javascript y Sass.
 La página consta de una interfaz sencilla para promocionar la boda y permitirle a los usuarios invitados indicar si podrán asitir.
 
-### Funcionalidad
 El formulario envía la respuesta RSVP de la invitación a la boda y esta es registrada posteriormente en una hoja de cálculo de Google, sin necesidad de servidores o backend.
 
 # Highlights
