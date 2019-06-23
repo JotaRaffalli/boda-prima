@@ -1,7 +1,9 @@
 // Google Fonts
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush&display=swap');
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 // Imports
 //@import "compass";
 @import "partials/typography";
@@ -252,7 +254,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../img/Couple.jpeg') center center;
+  background: url('../img/Couple3.jpg') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -293,7 +295,7 @@ Hero
 }
 .fixed {
   position: fixed;
-  background-color: rgba(55, 36, 40, .88);
+  background-color: rgba(85, 34, 83, 0.88);
   z-index: 999;
   width: 100%;
 }
@@ -421,6 +423,8 @@ Features-stack
     padding-bottom: 0;
   }
   h3 {
+    font-family: $dancing;
+    font-weight: $normal;
     margin: 0 0 20px 0;
   }
   span.icon {
